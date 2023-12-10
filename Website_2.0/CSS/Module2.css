@@ -1,0 +1,82 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.BtnFlat{
+  background-color: #FFFFFF;
+  border: none;
+  color: white;
+  text-align: center;
+  color: #000000;
+  padding: 12px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.BtnFlat:hover{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 12px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+a{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.slides{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: start;
+}
+
+a{
+  font-family: "Times New Roman",Times,serif;
+  font-size: 20px;
+  font-style: bold;
+}
+
+img{
+  height: 400px;
+  width: 700px;
+  border-radius: 10px;
+}
+.TextArea{
+  display: flex;
+  align-items: center;
+  height: 70%;
+  width: 70%;
+}
+
+.slide1{
+  background: linear-gradient(454deg, #4f4080, #9553ff)
+}
+.slide2{
+  background: linear-gradient(454deg, #FF9D88, #FE2F03)
+}
+.slide3{
+  background: linear-gradient(454deg, #B4FF88, #9553ff)
+}
+.slide4{
+  background: linear-gradient(454deg, #4f4080, #6FF81E)
+}
+.slide5{
+  background: linear-gradient(454deg, #99E2FF, #1AADFF)
+}
